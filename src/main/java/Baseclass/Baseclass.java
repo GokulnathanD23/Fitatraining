@@ -42,10 +42,10 @@ public class Baseclass {
 		driver.manage().window().maximize();
 		driver.get("https://rahulshettyacademy.com/client");
 		
-		WebElement getelementByID (String key) {
+	  public	WebElement getelementByID (String key) {
 				String Locator = Utilities.getlocator(key);
 				WebElement ele = driver.findElement(By.id(Locator));
-				return ele;
+				return;
 		}
 
 }

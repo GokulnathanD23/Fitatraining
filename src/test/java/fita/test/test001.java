@@ -21,8 +21,10 @@ public class test001 {
 	static WebDriverWait wait ;
     // (priority = 1)
 	public void OpenURL() throws InterruptedException {
+		
 		String path ="C:\\Users\\dkavi\\eclipse-workspace\\ECommerceTest\\drivers\\chromedriver-win64\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", path);
+		
 		
 
 		driver = new ChromeDriver ();
