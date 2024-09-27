@@ -35,14 +35,26 @@ public class StepDefinition extends Baseclass{
 		homepage homepage = new homepage();
 		homepage.addproduct(products);
 	}
-	
-	
+	@Then("check naviagtes to homepage")
+	public void check_naviagtes_to_homepage() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
 	@When("user adds fashion product")
 	public void user_adds_fashion_product() {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
-
+	@When("user click on carts")
+	public void user_click_on_carts() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("close the browser")
+	public void close_the_browser() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
 
 
 }
